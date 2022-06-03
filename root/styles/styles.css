@@ -82,6 +82,12 @@ header {
 main{
     background-color:#E5E5E5 ;
 }
+.div_slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
 .slide {
     
     padding: 40px;
@@ -92,10 +98,44 @@ main{
     display: flex;
     flex-direction: column;
     justify-content:center;
-    align-items: flex-end;
+    align-items:flex-end;
+    
+    
     row-gap: 80px;
 }
 
+#placer{
+background-color: white;
+border-radius: 5px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #3C2313;
+}
+
+#comederodescuento{
+font-size: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+color: #3C2313;
+}
+
+#comederoboton{
+cursor: pointer;    
+width: 141px;
+height: 49px;
+background: #F0A83E;
+border-radius: 5px;
+
+}
+
+/*
 .placer{
     background-color: white;
     border-radius: 5px;
@@ -128,7 +168,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
+
 
 text-align: center;
 
@@ -147,6 +187,7 @@ background: #F0A83E;
 border-radius: 5px;
 
 }
+*/
 
 .div_destacados{
     display: flex;
@@ -289,4 +330,6 @@ border-radius: 5px;
      text-align: center;
      background:#222222 ;
      color: white;
+     height: 30px;
  }
+
