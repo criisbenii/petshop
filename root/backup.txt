@@ -1,0 +1,88 @@
+* {
+    /*reset en los estilos que da html*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+
+    font-size: 100%;
+    /*tamaño de fuente para todo el body*/
+}
+
+.top {
+    /*llamando la clase top*/
+    color: white;
+    /*color del texto*/
+    background-color: black;
+    /*color del fondo*/
+    text-decoration: none;
+    /*decoracion del link*/
+
+    display: flex;
+    /*llamando flex box*/
+    flex-direction: row;
+    /*direccion de los flex items en flecha*/
+    align-items: center;
+    /*items centrados*/
+    justify-content: space-between;
+    padding: 4px;
+    
+}
+
+.subtitulo-top {
+    padding-left: 90px;
+}
+
+li,a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    
+    
+}
+
+header {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.logoheader {
+    cursor: pointer;
+    padding: 19px;
+    margin: 38px;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px;
+
+}
+
+
+.header {
+    background-color: #F0A83E;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.slide {
+    background-image: url(/img/fondo\ banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 409px;
+    text-align:right;
+    vertical-align: middle;
+    
+}

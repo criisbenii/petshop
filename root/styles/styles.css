@@ -1,0 +1,292 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+* {
+    /*reset en los estilos que da html*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+
+    font-size: 100%;
+    /*tamaño de fuente para todo el body*/
+}
+
+.top {
+    /*llamando la clase top*/
+    color: white;
+    /*color del texto*/
+    background-color: black;
+    /*color del fondo*/
+    text-decoration: none;
+    /*decoracion del link*/
+
+    display: flex;
+    /*llamando flex box*/
+    flex-direction: row;
+    /*direccion de los flex items en flecha*/
+    align-items: center;
+    /*items centrados*/
+    justify-content: space-between;
+    padding: 4px;
+    
+}
+
+.subtitulo-top {
+    padding-left: 90px;
+}
+
+li,a {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    
+    
+}
+
+header {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.logoheader {
+    cursor: pointer;
+    padding: 19px;
+    margin: 38px;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px;
+
+}
+
+
+.header {
+    background-color: #F0A83E;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+main{
+    background-color:#E5E5E5 ;
+}
+.slide {
+    
+    padding: 40px;
+    background-image: url(/img/fondo\ banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+    row-gap: 80px;
+}
+
+.placer{
+    background-color: white;
+    border-radius: 5px;
+position: absolute;
+width: 345px;
+height: 35px;
+left: 300;
+top: 246px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #3C2313;
+}
+
+
+.comederodescuento{
+    position: absolute;
+width: 190px;
+height: 19px;
+left: 1600px;
+top: 300px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #3C2313;
+
+}
+.comederoboton{
+    cursor: pointer;
+    position: absolute;
+width: 141px;
+height: 49px;
+left: 1630px;
+top: 350px;
+
+background: #F0A83E;
+border-radius: 5px;
+
+}
+
+.div_destacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: roboto;
+    font-size: 35px;
+    color: #3C2313;
+}
+.divnav{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#link{
+    color: black;
+
+}
+ .cards{
+     height:600px;
+     width: 100%;
+     left: 95px;
+     padding: 90px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 50px;
+}
+ 
+#imagenes{
+    max-height: 100%;
+}
+
+#contactanos{
+    margin: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 25px;
+    color: #3C2313;
+    
+}
+
+.formulario{
+    text-align: center;
+    padding: 10px;
+}
+#espacioformu{
+    
+    border-radius: 10px;
+    width: 300px;
+    height: 35px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    
+    background: #3C2313;
+   
+}
+#botonreset{
+    border-radius: 15px;
+    width: 110px;
+    height: 35px;
+    border: 0;
+    color: #FFFFFF
+}
+::placeholder{color: #FFFFFF}
+#botonenviar{
+    border-radius: 15px;
+    width: 110px;
+    height: 35px;
+    border: 0;
+    background: #F0A83E;
+    color: #FFFFFF
+}
+ .novedades2{
+     
+     height: 60px;
+     width: 100%;
+     background: #F0A83E;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+     color: #FFFFFF;
+     
+     
+ }
+ .formudiv{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+ }
+
+ #formupeque{
+     position: absolute;
+     left: 80%;
+ }
+ #formulito{
+     width: 275px;
+     height: 40px;
+     border-radius: 15px;
+     border: 0;
+     background: #E5E5E5;
+     color: black;
+     
+     
+    }
+ #botonsub{
+     font-family: Roboto;
+     font-style: normal;
+     height: 30px;
+     width: 85px;
+     border-radius: 15px;
+     border: 0;
+     background: #3C2313;
+     color: #FFFFFF;
+ }
+
+ .info{
+     height: 200px;
+     background: #3C2313;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     gap: 10px;
+
+ }
+ 
+ #infopie{
+     max-width: 9%;
+ }
+ footer{
+     text-align: center;
+     background:#222222 ;
+     color: white;
+ }
